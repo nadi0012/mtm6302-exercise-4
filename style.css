@@ -9,6 +9,14 @@ body {
   display: grid;
   align-content: center;
 }
+.display-4{
+   color: rgb(62, 62, 62);
+   font-weight: bold;
+   font-size: 2.5rem;
+   margin-bottom: 20px;
+   margin-top: 30px;
+}
+
 
 .form,
 .alert {
@@ -55,15 +63,18 @@ label{
   outline: none;
 }
 .countdown {
-  justify-self: center;
   text-align: center;
+  box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.171);
 }
 
 .countdown-time {
   display: flex;
   font-size: 2.5rem;
   text-align: center;
+  justify-content: center;
+  align-items: center;
 }
+
 
 .countdown-time span {
   display: grid;
